@@ -35,3 +35,32 @@ if(true) {
 
 console.log(blockVar); // hasilnya undefined karena var blockVar di deklarasikan di dalam block
 //console.log(blockConst); // hasilnya undefined karena var blockConst di deklarasikan di dalam block
+
+//Primitive data types : 
+//String
+let name2 = "Alice";
+let greeting = 'Hello, world!';
+let message = `Hi, ${name2}!`;  // template literal
+console.log(message); // Hi, Alice!
+
+//Number
+let age2 = 30;
+let pi = 3.14159;
+let negative = -10;
+console.log(age, pi, negative);
+
+//Boolean
+let isActive = true;
+let hasAccess = false;
+console.log(isActive, hasAccess);
+
+//BigInt
+let big = 9007199254740991n; // lebih besar dari Number.MAX_SAFE_INTEGER
+let anotherBig = BigInt("123456789012345678901234567890");
+console.log(big, anotherBig);
+
+
+//Null
+let emptyValue = null;
+console.log(emptyValue);
+
